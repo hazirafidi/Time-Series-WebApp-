@@ -16,7 +16,7 @@ The Methodolgy for ML and DL Model Training using KNIME Analytic Platforms
 
 # 3.1 Input Pipeline
 
-The dataset is in the format of csv file and contains information of sizes and shape of the microrganism with the label of 10 type of microorganism. The dataset is split into train and test data using train_test_split from Scikit-learn. 
+The dataset is in the format of csv file and contains information of the Features and Target.
 
 
 ## 3.2 Univariate and Mutivariate Time Series (Deep Learning)
