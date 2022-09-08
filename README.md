@@ -39,19 +39,21 @@ The dataset is in the format of csv file and contains information of the Feature
 
 # Demo
 
-git clone this repo
+1. git clone this repo. Then, run yaml file to create and install dependencies by execute following command.
 
-Then, run yaml file to create and install dependencies
+    conda env create -f <name_of_your_env>.yml
 
-conda env create -f <name_of_your_env>.yml
+2. Then, activate created environment using following command.
 
-Then, activate created environment using 
+    conda activate <name_of_your_env>
 
-conda activate <name_of_your_env>
+3. and lastly run the following command to install keras-gpu dependencies
 
-and run following command to install kerasa-gpu dependencies
+    conda install -c anaconda keras-gpu
 
-conda install -c anaconda keras-gpu
+4. Open your anaconda command prompt and cd folder location and run the following command.
+
+    streamlit run Home.py
 
 https://user-images.githubusercontent.com/100177902/187399449-49223eee-971d-453d-85d2-1bc6f38c69eb.mp4
 
