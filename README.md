@@ -39,7 +39,19 @@ The dataset is in the format of csv file and contains information of the Feature
 
 # Demo
 
+git clone this repo
 
+Then, run yaml file to create and install dependencies
+
+conda env create -f <name_of_your_env>.yml
+
+Then, activate created environment using 
+
+conda activate <name_of_your_env>
+
+and run following command to install kerasa-gpu dependencies
+
+conda install -c anaconda keras-gpu
 
 https://user-images.githubusercontent.com/100177902/187399449-49223eee-971d-453d-85d2-1bc6f38c69eb.mp4
 

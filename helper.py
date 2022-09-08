@@ -52,7 +52,7 @@ def series_to_supervised(data, n_in=1, n_out=1, dropnan=True):
 
 def dl_prediction():
     df = st.session_state['df_input']
-    values = df .values
+    values = df.values
     # normalize
     scaler = MinMaxScaler(feature_range=(0,1))
     scaled = scaler.fit_transform(values)

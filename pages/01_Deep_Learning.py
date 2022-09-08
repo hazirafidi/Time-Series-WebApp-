@@ -153,7 +153,6 @@ if st.button("Predict"):
     else:
         try:
             output = dl_prediction()
-            pass
         except ValueError:
             st.error("Invalid Input!!")
     

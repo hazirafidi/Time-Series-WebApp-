@@ -1,0 +1,10 @@
+name: ts_webapp         # Name of the created environment
+dependencies:           # List of packages that should be installed
+- python==3.9           # Python         
+- pip
+- pip:
+  - streamlit==1.12.0
+  - streamlit-aggrid==0.3.2                
+  - bokeh==2.4.3
+  - scikit-learn==1.1.2
+# - keras-gpu
