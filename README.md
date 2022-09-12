@@ -8,7 +8,7 @@ This webapp is developed to deploy trained ML and DL model for Time Series Data.
 
 # 2. IDE and Framework
 
-This Webapp is built using Python Programming Language as the main IDE. The main framework use including Keras, Scikit-Learn, Streamlit, pandas and numpy.
+This Webapp is built using Python Programming Language and VScode as the main IDE. The main framework use including Keras, Scikit-Learn, Streamlit, pandas and numpy.
 
 # 3. Methodolgy
 
@@ -41,11 +41,11 @@ The dataset is in the format of csv file and contains information of the Feature
 
 1. git clone this repo. Then, run yaml file to create and install dependencies by execute following command.
 
-    conda env create -f <name_of_your_env>.yml
+    conda env create -f ts_webapp.yml
 
 2. Then, activate created environment using following command.
 
-    conda activate <name_of_your_env>
+    conda activate ts_webapp
 
 3. and lastly run the following command to install keras-gpu dependencies
 
