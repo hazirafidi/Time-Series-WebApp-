@@ -41,19 +41,27 @@ The dataset is in the format of csv file and contains information of the Feature
 
 1. git clone this repo. Then, run yaml file to create and install dependencies by execute following command.
 
-    conda env create -f ts_webapp.yml
+   ```
+   $ conda env create -f ts_webapp.yml
+   ```
 
 2. Then, activate created environment using following command.
 
-    conda activate ts_webapp
+   ``` 
+   $ conda activate ts_webapp
+   ```
 
 3. and lastly run the following command to install keras-gpu dependencies
 
-    conda install -c anaconda keras-gpu
+   ```
+   $ conda install -c anaconda keras-gpu
+   ```
 
 4. Open your anaconda command prompt and cd folder location and run the following command.
 
-    streamlit run Home.py
+   ```
+   $ streamlit run Home.py
+   ```
 
 https://user-images.githubusercontent.com/100177902/187399449-49223eee-971d-453d-85d2-1bc6f38c69eb.mp4
 
