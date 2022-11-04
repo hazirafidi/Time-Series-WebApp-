@@ -51,10 +51,14 @@ The dataset is in the format of csv file and contains information of the Feature
    $ conda activate ts_webapp
    ```
 
-3. and lastly run the following command to install keras-gpu dependencies
+3. and lastly run the following command to install keras-gpu or keras-cpu dependencies
 
    ```
    $ conda install -c anaconda keras-gpu
+   
+   or
+   
+   $ conda install -c anaconda keras
    ```
 
 4. Open your anaconda command prompt and cd folder location and run the following command.
